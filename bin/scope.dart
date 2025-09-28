@@ -5,7 +5,7 @@ void main() {
 }
 
 num checkDiscount(num price) {
-  num discount = 0;      // pembuatan variabel baru dengan scope lebih kecil
+  num discount = 0; // pembuatan variabel baru dengan scope lebih kecil
   if (price >= 100000) {
     discount = 10 / 100 * price;
   }
