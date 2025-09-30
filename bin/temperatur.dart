@@ -1,5 +1,5 @@
 import 'dart:io';
- 
+
 void main() {
   stdout.write('Masukkan suhu dalam Fahrenheit: ');
   var fahrenheit = num.parse(stdin.readLineSync()!);
